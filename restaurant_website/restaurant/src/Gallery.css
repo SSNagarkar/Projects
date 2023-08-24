@@ -1,0 +1,41 @@
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+
+  .image-gallery{
+    overflow: hidden;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+  }
+
+  .image-gallery-slides{
+    overflow: scroll;
+  }
+
+  .img1{
+    /* scroll-snap-align: start; */
+    margin-bottom: 10px;
+    min-height: 30rem;
+  }
+
+  .image-nav{
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+  }
+
+  .image-nav a {
+    height: 200px;
+
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .image-gallery-img1{
+    max-height: 100%;
+  }

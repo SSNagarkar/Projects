@@ -1,0 +1,334 @@
+.firstcard{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+
+
+.card_heading1{
+    background-color: #200020;
+    color: white;
+    margin: 0;
+
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.card_image1{
+   margin: 0rem 0.5rem 0.5rem 0.5rem;
+   height: 300px;
+     
+}
+
+.first-card-para1{
+    font-size: 1.2rem;
+
+}
+
+.card_link_open{
+    cursor: pointer;
+
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    text-decoration: underline;
+    background-color:#500050 ;
+    color: white;
+    margin:0 10rem 1rem 10rem;
+    border-radius: 0.5rem;
+    
+    padding: 1rem;
+}
+
+
+
+
+.secondcard{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.card_heading2{
+    background-color: #200020;
+    color: white;
+    margin: 0;
+
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0  0.5rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.card_image2{
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    height: 300px;
+     
+}
+
+.second-card-para2{
+    font-size: 1.2rem;
+}
+
+.card_link2{
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    text-decoration: underline;
+    background-color:#58181f ;
+    color: white;
+    margin:0 7rem 1rem 7rem;
+    
+    padding: 1rem;
+}
+
+
+.thirdcard{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+ .card_heading3{
+    background-color: #200020;
+    color: white;
+    margin: 0;
+
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0  0.5rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 100;
+ }
+
+.card_image3{
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    height: 300px;
+     
+}
+
+.third-card-para3{
+    font-size: 1.2rem;
+}
+
+.card_link3{
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1rem;
+    
+    text-decoration: underline;
+    background-color:#500050 ; ;
+    color: white;
+    margin:0 10rem 1rem 10rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+
+.fourthcard{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.card_heading4{
+    background-color: #200020;
+    color: white;
+    margin: 0;
+
+    padding: 1rem;
+    margin: 0.5rem 0.5rem 0  0.5rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 100;
+ }
+.card_image4{
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    height: 300px;
+     
+}
+
+.fourth-card-para4{
+    font-size: 1.2rem;
+}
+
+.card_link4{
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1rem;
+    
+    text-decoration: underline;
+    background-color:#500050 ;
+    color: white;
+    margin:0 10rem 1rem 10rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+
+.modal-form-contents{
+   
+
+    font-size: 1.2rem;
+   
+    
+}
+
+.modal-form-button1{
+    display: grid;
+    grid-template-columns: auto auto ;
+
+    
+}
+
+.reservation-component-eventpage{
+    grid-row: 2;
+    grid-column: 1;
+    
+    
+
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-align: left;
+}
+
+.event-nav-link{
+    background-color:#500050 ;
+    border: none;
+
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* .modal-email{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.conemail{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+.required{
+    color: red;
+}
+
+.mail-text , .conmail-text{
+    grid-column: 2;
+
+    padding-bottom: 0.5rem;
+}
+
+.conmail-input, .mail-input{
+    width: 15rem;
+    height: 1.5rem;
+
+    border: 2px solid black;
+}
+
+.modal-form-button{
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.subscribe-button{
+    padding: 0.5rem;
+    background-color: green;
+    height: 2.5rem;
+    width: 6rem;
+
+    color: white;
+    font-size: 1rem;
+    
+    border: green;
+    border-radius: 0.5rem;
+} */
+
+.modal-form-button-close{
+    grid-row: 2;
+    
+    background-color:rgb(219, 47, 47);
+    height: 2.4rem;
+    width: 6rem;
+
+    margin-top: 3.7rem;
+    margin-left: 2rem;
+
+    color: white;
+    font-size: 1rem;
+    
+    border: green;
+    border-radius: 0.5rem;
+}
+
+.modal-form-button1{
+    position: relative;
+    bottom: 2.5rem;
+    text-align: right;
+}
+
+.app.light .card_heading1{
+    background-color: #500050;
+}
+
+.app.light .card_heading2{
+    background-color: #500050;
+}
+
+.app.light .card_heading3{
+    background-color: #500050;
+}
+
+.app.light .card_heading4{
+    background-color: #500050;
+}
+
+
+@media screen and (min-width: 44rem){
+    .event-cards{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+}

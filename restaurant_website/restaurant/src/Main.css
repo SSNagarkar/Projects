@@ -1,0 +1,7 @@
+.main{
+    background-color: var(--primary-bg);
+}
+
+.app.dark .main{
+    background-color: #d5acd5;
+}

@@ -1,0 +1,169 @@
+.footer-list-social{
+    display: none;
+
+}
+
+.footer{
+    background-color: var(--footer-bg);
+    padding-top: 0.5rem;
+}
+
+.app.dark{
+    --header-bg: #400040;
+}
+
+.app.dark .footer{
+    background-color: #400040;
+}
+
+
+.app.dark .footer-list-contact{
+    color: #ddbbdd;
+}
+
+.app.dark .footer-list-hours{
+    color: #ddbbdd;
+}
+
+.app.dark .gg-twitter{
+    color: #ddbbdd;
+}
+
+.app.dark .gg-facebook{
+    color: #ddbbdd;
+}
+
+.app.dark .gg-instagram{
+    color: #ddbbdd;
+}
+
+
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.footer-list-contact{
+    color: black;
+    font-weight: 100;
+
+}
+.footer-list-contact span{
+    font-size: 1rem;
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.footer-list-contact p{
+    font-size: 0.9rem;
+
+}
+
+.footer-list-hours{
+    color: black;
+    font-weight: 100;
+}
+
+
+.footer-list-hours span{
+    font-size: 1rem;
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-list-hours p{
+    font-size: 0.9rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 44rem){
+
+.footer{
+        padding-top: 0.5rem;
+        
+    }
+
+.app.dark .footer{
+        background-color: #400040;
+}
+    
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+
+
+li{
+    font-weight: bold;
+    
+}
+
+p{
+    font-size: small;
+}
+
+.footer-list-social{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+
+    margin: 0;
+
+    padding-top: 2.5rem;
+
+}
+
+.footer-list-contact span{
+    font-size: 1rem;
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.footer-list-contact p{
+    font-size: 0.9rem;
+
+}
+
+
+.footer-list-hours span{
+    font-size: 1rem;
+
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-list-hours p{
+    font-size: 0.9rem;
+
+}
+
+}

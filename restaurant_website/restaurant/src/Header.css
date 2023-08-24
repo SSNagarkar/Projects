@@ -1,0 +1,199 @@
+ 
+.header{
+    display: grid;
+    grid-template-areas: 
+    "header-logo" 
+    "header-title" "header-navmenu" ;
+
+    grid-template-columns: auto 1fr auto;
+   
+    /* background-color: black ; */
+
+    background-color: var(--header-bg);
+} 
+
+.app.dark{
+    --header-bg: #400040;
+}
+
+.app.dark .header-title{
+    color: #ddbbdd;
+}
+
+
+.header-logo{
+    grid-area: header-logo;
+    grid-row: 1;
+    height: 7rem;
+    width: 7rem;
+}
+
+
+.header-title{
+    grid-area: header-title;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+
+    font-size: 4rem;
+    
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-bottom: 0;
+    margin-top: 1rem;
+    
+    color: #200020;
+} 
+
+.header-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.global-nav-button{
+    grid-area: header-navmenu;
+    /* grid-column: 3; */
+    grid-column: 1;
+    grid-row: 1;
+
+    border: 1px solid #200020;
+
+     
+
+    position: relative;
+
+    margin: 2rem 1rem 0rem 1rem ;
+
+}
+
+.header-themeswitcher{
+    margin-top: 2rem;
+
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+
+
+
+.header-para{
+    grid-column: 1;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+
+.skiptomain{
+    position: absolute;
+    left: 15rem;
+    height: initial;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+
+    color: white;
+}
+
+.skiptomain:focus {
+    transform: translateY(0%);
+  }
+
+
+
+
+
+@media screen and (min-width: 44rem){
+
+
+    .reserve-nav{
+
+        list-style: none;
+        position: relative;
+        right: 7rem;
+        top:3rem
+    }
+    
+
+    .header{
+        display: grid;
+        grid-template-areas: 
+        "header-logo" 
+        "header-title" "header-navmenu" 
+    
+        
+         ;
+    
+        grid-template-columns: auto 1fr auto;
+
+         height: 10rem;
+    
+       
+    } 
+    
+    
+    
+    .header-logo{
+        grid-area: header-logo;
+        grid-row: 1;
+        height: 7rem;
+        width: 7rem;    
+
+        
+    }
+.header-title{
+    grid-area: header-title;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+
+    font-size: 5rem;
+    
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-left: 8rem;
+   
+    
+    color: #200020;
+
+    padding-top: 1rem;
+
+    
+
+    margin-bottom: 0;
+}
+
+.header-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-navmenu{
+    grid-area: header-navmenu;
+    grid-column: 3;
+    grid-row: 1;
+    
+
+}
+
+.header-para{
+    text-align: center;
+
+    margin-top: 0;
+}
+
+.global-nav-button{
+   margin-right: 6rem;
+   margin-top: 3rem;
+
+   border: 1px solid #200020;
+
+   
+
+}
+}

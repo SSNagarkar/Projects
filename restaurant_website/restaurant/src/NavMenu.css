@@ -1,0 +1,107 @@
+
+.global-nav-button{
+
+    height: 1.9rem;
+    width: 2.3rem;
+    
+    
+
+    position: relative; 
+
+    border: 0;
+}
+
+.global-nav-list{
+    padding: 0.2rem 2rem 0.8rem 2rem;
+    margin-top: 0;
+    line-height: 2;
+    
+    right: 3.5rem;
+
+    width: 8rem;
+
+    font-size: 1.2rem;
+
+    background-color: #e4cae4;
+    
+    position: absolute;
+    border-radius: 0.2rem;  
+}
+
+
+.global-nav-link:focus{
+    background-color: var(--header-bg);
+    color: white;
+}
+
+.global-nav-list:focus{
+    background-color: var(--header-bg);
+    color: white;
+}
+
+.global-nav-list:focus-within{
+    background-color: var(--header-bg);
+    color: white;
+}
+
+
+.global-nav-item{
+    list-style: none; 
+    color: #400040;   
+}
+
+.global-nav-item:hover{
+    background-color: var(--header-bg);
+    color: white;
+    
+}
+
+.global-nav-link:hover{
+    color: white;
+}
+
+.app.light .global-nav-item:hover{
+    background-color: #400040;
+    
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 44rem){
+
+
+
+    .global-nav-button{
+
+
+        height: 1.9rem;
+        background-color: beige ;
+    
+        margin-left: 4rem;
+    
+        position: relative;
+      
+    }
+
+    .global-nav-list{
+        position: absolute;
+
+        width: 10rem;
+
+        right: 7rem;
+    
+    }
+
+    .global-nav-item{
+         text-align: center;
+    }
+    
+
+}
+
+

@@ -1,0 +1,26 @@
+*, *::before,*::after{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+:root{
+  --primary-colour : black;
+  --primary-bg : #F6ECF5;
+  --header-bg : #d5acd5;
+  --footer-bg:#d5acd5;
+  --homephe-main:#d5acd5;
+}
+
+#root{
+  height: 100%;
+}
+
+
+
+

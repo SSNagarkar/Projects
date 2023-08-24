@@ -1,0 +1,33 @@
+Adapted from https://unsplash.com/ under licence of https://unsplash.com/license
+
+Home Page Images : 
+ 
+  Logo Image -https://images.unsplash.com/photo-1542326237-94b1c5a538d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aXRhbGlhbiUyMGN1aXNpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+  Home Main Page Image - https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+
+Gallery Page Images :
+
+   Image1 : https://images.unsplash.com/photo-1561912774-79769a0a0a7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bHV4dXJ5JTIwcmVzdGF1cmFudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+   Image2 : https://images.unsplash.com/photo-1579027989536-b7b1f875659b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJlc3RhdXJhbnQlMjBleHRlcmlvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60
+
+   Image3 : https://images.unsplash.com/photo-1624001877690-922b1e243939?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fFRpcmFtaXN1fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+
+   Image4 : https://images.unsplash.com/photo-1585002400872-ec6f400e56b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fGl0YWxpYW4lMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+
+   Imag5 : https://images.unsplash.com/photo-1611783214219-8f3662a26838?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2hlZnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+   Image6 : https://images.unsplash.com/photo-1621538997178-8acbbcd64506?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGl0YWxpYW4lMjBmb29kJTIwY2hlZnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+   Image7 : https://images.unsplash.com/photo-1560963689-b5682b6440f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHJlc3RhdXJhbnQlMjBjb2NrdGFpbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60
+
+Events Page Images :
+
+  Card 1 : https://images.unsplash.com/photo-1543258103-a62bdc069871?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8SG9saWRheSUyMFNlYXNvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60
+
+  Card 2 : https://images.unsplash.com/photo-1592642214481-a31c5468099a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8UHJpdmF0ZSUyMERpbmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60
+
+  Card 3 : https://images.unsplash.com/photo-1594046243098-0fceea9d451e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y3VsaW5hcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+  Card 4 : https://images.unsplash.com/photo-1514361659284-59851c90d011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvY2t0YWlsJTIwbWFraW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60

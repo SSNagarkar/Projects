@@ -1,0 +1,10 @@
+2024-05-04 14:39:58,024 :INFO :test_e2e :Username entered: sayali
+2024-05-04 14:39:58,122 :INFO :test_e2e :Active user is same as signedIn user
+2024-05-04 14:39:58,156 :INFO :test_e2e :Message sent on chat app
+2024-05-04 14:39:58,168 :INFO :test_e2e :Message is sent by acrive user
+2024-05-04 14:39:58,209 :INFO :test_e2e :The chat page is refreshed
+2024-05-04 14:41:54,155 :INFO :test_e2e :Username entered: sayali
+2024-05-04 14:41:54,251 :INFO :test_e2e :Active user is same as signedIn user
+2024-05-04 14:41:54,284 :INFO :test_e2e :Message sent on chat app
+2024-05-04 14:41:54,295 :INFO :test_e2e :Message is sent by active user
+2024-05-04 14:41:54,338 :INFO :test_e2e :The chat page is refreshed

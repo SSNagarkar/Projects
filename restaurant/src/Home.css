@@ -1,0 +1,338 @@
+/* Styles for mobile screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+
+  
+
+    .header-title {
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .event-nav {
+        list-style: none;
+    }
+
+    .event-nav-link {
+        font-size: 1rem;
+        color: white;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+
+    }
+    
+
+  .event-nav-link:hover{
+       color: #43492f;
+  }
+
+  .reserve-nav-link-home:hover{
+    color: #43492f;
+  }
+
+
+
+    .home-main-img {
+        height: 33rem;
+    }
+
+
+    .home-main-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(240, 235, 235, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: safe;
+        align-items: center;
+        height: 15rem;
+        width: 30rem;
+    }
+
+    .home-main-para {
+        font-size: 2rem;
+        margin-top: 1rem;
+        color: black;
+        font-weight: bold;
+    }
+
+    .home-main-para1 {
+        color: rgb(47, 44, 44, 0.8);
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+
+
+    .home-header-para3 {
+        color: white;
+    }
+
+    .global-nav-button {
+
+        color: white;
+
+    }
+
+    .global-nav-list {
+        position: absolute;
+       
+    }
+
+
+    .global-nav-item {
+        text-align: center;
+    }
+
+    .reservation-box{
+        margin-top: 1rem;
+        padding: 1rem;
+        background-color: #778152;
+        border-radius: 1rem;
+      
+    }
+
+ 
+
+   .reserve-nav-home a{
+    font-size: 1.1rem;
+    color: white;
+
+    margin-top: 1rem;
+    
+   }
+
+   .reserve-nav-home{
+    list-style: none;
+   }
+
+   .name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(65, 78, 64);
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width : 50rem) {
+    .reserve-nav {
+        list-style: none;
+        left: 0.5rem;
+        top: 6px;
+
+    }
+
+    
+
+
+
+    .home-header-para3 {
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        padding-top: 2px;
+        font-weight: medium;
+
+
+        margin-top: 0;
+
+        color: #dae4cb;
+
+
+    }
+
+
+
+.home-header {
+    text-align: center;
+
+    margin: 0;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.home-header-para1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-header-para2 {
+    font-size: 3rem;
+    margin: 0.5rem;
+    color: #200020;
+
+}
+
+
+.home-header-para4 {
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #200020;
+}
+
+.reserve-nav {
+    list-style: none;
+    position: relative;
+
+
+}
+
+.reserve-nav-link {
+    font-size: 1.5rem;
+    color: white;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+
+
+}
+
+.event-nav {
+    list-style: none;
+}
+
+
+
+.reservation-box {
+    position: absolute;
+    top: 65%;
+    left: 39.5%;
+    width: 7rem;
+}
+
+.app.dark .reserve-nav-home{
+    color: #43492f;
+
+}
+
+
+
+.home-main-text {
+    position: relative;
+    text-align: center;
+
+}
+
+.home-main-box {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(240, 235, 235, 0.6);
+    color: #fff;
+
+    border-radius: 10px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    z-index: 2;
+}
+
+.home-main-para {
+
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: rgb(47, 44, 44);
+    font-weight: 600;
+
+}
+
+.home-main-para1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(47, 44, 44, 0.8);
+    z-index: 2;
+}
+
+
+.home-main-nav-link {
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.event-nav-link {
+    color: white;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(65, 78, 64);
+}
+
+.reserve-nav-home {
+    position: absolute;
+    width: 11rem;
+    padding: 1rem;
+    
+    background-color: #778152;
+    border-radius: 1rem;
+    list-style: none;
+
+
+}
+
+.reservation-box{
+    position: absolute;
+    left: 38%;
+}
+
+.reserve-nav-link-home {
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.home-main-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.reservation-component-home {
+    color: #200020;
+
+}
+
+.home-main-img{
+    width: 100%;
+    height: 40rem;
+
+}
+
+.event-nav-link:hover{
+    color: #43492f;
+}
+
+.reserve-nav-link-home:hover{
+ color: #43492f;
+}
+}

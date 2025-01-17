@@ -1,0 +1,42 @@
+
+/* Adapted from https://css.gg/math-plus as per the MIT Licence https://css.gg/doc/licence */
+
+.gg-math-plus,
+.gg-math-plus::after {
+ display: block;
+ box-sizing: border-box;
+ background: currentColor;
+ border-radius: 10px
+}
+
+.gg-math-plus {
+ margin-top: 7px;
+ position: relative;
+ transform: scale(var(--ggs,1));
+ width: 16px;
+ height: 0.5px
+}
+
+.gg-math-plus::after {
+ content: "";
+ position: absolute;
+ width: 2px;
+ height: 16px;
+ top: -7px;
+ left: 7px
+} 
+
+
+   /* Adapted from https://css.gg/math-minus as per the MIT Licence https://css.gg/doc/licence */
+
+
+   .gg-math-minus {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      transform: scale(var(--ggs,1));
+      width: 16px;
+      height: 2px;
+      background: currentColor;
+      border-radius: 10px
+     } 

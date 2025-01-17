@@ -1,0 +1,29 @@
+*, *::before,*::after{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+:root{
+  --primary-colour : black;
+  --header-bg : #43492f;
+  --primary-bg : 	white;
+  /* --header-bg : #d5acd5; */
+  --header-bg : 	#778152;
+  --footer-bg:	#778152;
+  --homephe-mainrgb: white;
+}
+
+/* rgb(238, 244, 232) */
+#root{
+  height: 100%;
+}
+
+
+
+

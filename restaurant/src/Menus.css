@@ -1,0 +1,239 @@
+.restaurant-menu{
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+
+.accordian-button{
+        width: 20rem;
+        background-color: var(--header-bg);
+        border: none;
+        border-radius: 2rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        outline: none;
+        text-align: center;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: black;
+        cursor: pointer;
+        
+        font-weight: bold;
+
+        display: grid;
+        grid-template-columns: auto auto;
+
+        gap: 1rem;
+
+    }
+
+.lunch-menu-starter{
+    font-weight: medium;
+    font-size: 1.5rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.lunch-menu-item{
+    list-style: none;
+    font-weight: 100;
+    font-size: 1rem;
+
+    padding-left: 1.5rem;
+
+    line-height: 1.5rem;
+}
+
+
+.lunch-menu-salads{
+    font-weight: medium;
+    font-size: 1.5rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lunch-menu-pasta{
+    font-weight: medium;
+    font-size: 1.5rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.dessert-menu-starter{
+    padding: 0;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.accordian-button1{
+    width: 20rem;
+    background-color: var(--header-bg);;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    outline: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+
+}
+
+
+
+.accordian-button2{
+    width: 20rem;
+    background-color: var(--header-bg);;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    outline: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.accordian-button3{
+    width: 20rem;
+    background-color: var(--header-bg);
+    border: none;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    outline: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+
+    font-weight: bold;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+}
+
+.gg-math-plus{
+    margin-left: 7rem;
+}
+
+.gg-math-minus{
+    margin-left: 7rem;
+}
+
+.gg-math-plus{
+
+    margin-left: 5rem;
+}
+
+.gg-math-minus{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.app.dark .accordian-button{
+    /* color: #e4cae4; */
+}
+
+.app.dark .accordian-button1{
+    /* color: #e4cae4; */
+}
+
+.app.dark .accordian-button2{
+    /* color: #e4cae4; */
+}
+
+.app.dark .accordian-button3{
+    /* color: #e4cae4; */
+}
+
+
+
+@media screen and (min-width: 44rem) {
+
+    .restaurant-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    .accordian-button{
+        width: 50rem;
+        height: 4rem;
+    
+   
+    }
+
+
+    .accordian-button1{
+        width: 50rem;
+        height: 4rem;
+        margin-top: 2rem;
+        
+    }
+
+
+    .accordian-button2{
+        width: 50rem;
+        height: 4rem;
+        margin-top: 2rem;
+        
+    }
+
+    .accordian-button3{
+        width: 50rem;
+        height: 4rem;
+        margin-top: 2rem;
+        
+    }
+
+    .button-text{
+        font-size: 1.5rem;
+        color: white;
+        padding-top: 0.5rem;
+    }
+
+    .gg-math-plus{
+        margin-top: 0.5rem;
+        color: white;
+        margin-left: 35rem;
+    }
+
+
+
+    .gg-math-minus{
+       
+        color: white;
+        margin-left: 35rem;
+    }
+
+
+    
+}
+
+
+

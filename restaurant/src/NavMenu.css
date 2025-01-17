@@ -1,0 +1,86 @@
+ 
+
+
+/* Global Styles for Nav Button */
+.global-nav-button {
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1000; /* Keep button above the menu */
+    position: relative;
+  }
+  
+  /* Dropdown Menu */
+  .global-nav-list {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    top: 6.5rem; 
+    right: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    right:3rem;
+    width: 8rem;
+  }
+  
+  /* Individual List Items */
+  .global-nav-item {
+    margin: 0.5rem 0;
+  }
+  
+  .global-nav-link {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 0.3rem;
+  }
+  
+  /* Hover Effects for Links */
+  .global-nav-link:hover {
+    background-color: var(--header-bg);
+    color: white;
+  }
+  
+  /* Light Theme Adjustments */
+  .app.light .global-nav-link:hover {
+    background-color: #778152;
+  }
+
+
+@media screen and (min-width: 44rem){
+
+    .global-nav-list {
+        display: none !important;
+      }
+    
+      .global-nav-button {
+        display: none; 
+      }
+    
+
+
+    .global-nav-list{
+        position: absolute;
+
+        width: 10rem;
+
+        right: 7rem;
+    
+    } */
+
+    .global-nav-item{
+         text-align: center;
+    }
+    
+
+}
+
+

@@ -1,0 +1,383 @@
+.reservation-form {
+
+    /* border: 1px solid #200020; */
+
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 2rem;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-color: var(--header-bg)
+}
+
+.app.light .reservation-form {
+    background-color: #778152;
+}
+
+
+.reservation-form-title {
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+
+    text-decoration: underline;
+    color: white;
+
+    font-weight: 200;
+}
+
+
+.reservation-form-contents {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.app.light .reservation-form-title {
+    color: #200020;
+}
+
+
+.username,
+.emailid,
+.phone-number,
+.guest-dropdown,
+.reservation-day {
+    text-align: left;
+
+    padding-left: 5rem;
+    color: white;
+
+
+}
+
+.app.light .username {
+    color: #200020;
+}
+
+.app.light .emailid {
+    color: #200020;
+}
+
+.app.light .phone-number {
+    color: #200020;
+}
+
+.app.light .guest-dropdown {
+    color: #200020;
+}
+
+.app.light .reservation-day {
+    color: #200020;
+}
+
+.reservation-form-contents input {
+    width: 15rem;
+    height: 1.5rem;
+
+    margin-left: 5rem;
+}
+
+.reservation-form-contents input,
+.reservation-form-contents button {
+    display: block;
+
+    border: 1px solid white;
+
+}
+
+#options,
+#day-options {
+    width: 15rem;
+    height: 1.5rem;
+
+    border: 1px solid white;
+
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+.form-content2 {
+    padding-left: 5rem;
+
+    margin: 0;
+
+}
+
+.form-content1 {
+    margin: 1rem;
+    margin-top: 0;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+
+    color: white;
+
+
+}
+
+.app.light .checkbox {
+    color: #200020;
+}
+
+
+.check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+
+.button {
+    text-align: center;
+}
+
+
+.reserve-button {
+    margin: 2rem;
+
+    background-color: white;
+    border: 1px solid #778152;
+
+    border-radius: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    height: 2.5rem;
+    width: 10rem;
+
+}
+
+#name-error {
+    margin-left: 5rem;
+    color: rgb(236, 4, 4);
+    padding-bottom: 1rem;
+
+    text-align: left;
+}
+
+#email-error {
+    margin-left: 5rem;
+    color: rgb(236, 4, 4);
+    padding-bottom: 1rem;
+
+    text-align: left;
+
+    font-size: 1rem;
+
+}
+
+#phone-error {
+    margin-left: 5rem;
+    color: rgb(236, 4, 4);
+    padding-bottom: 1rem;
+
+    text-align: left;
+
+    font-size: 1rem;
+
+}
+
+.success-message {
+    padding-bottom: 1rem;
+
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    color: rgb(227, 233, 227);
+
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+.error-message {
+    padding-bottom: 1rem;
+
+    font-size: 1.1rem;
+    padding-left: 4rem;
+    color: red;
+
+    font-weight: bold;
+}
+
+.home-nav-text {
+    font-size: 1rem;
+}
+
+.home-nav {
+    list-style: none;
+
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.home-nav-link {
+    color: #200020;
+    font-weight: bold;
+}
+
+.home-nav-text {
+    text-align: center;
+}
+
+.app.dark .home-nav-link {
+    color: white;
+}
+
+.app.dark .home-nav-text {
+    color: white;
+}
+
+
+
+
+
+@media screen and (min-width: 44rem) {
+
+    .reservation-form {
+        text-align: center;
+    }
+
+    .reservation-form h2 {
+        padding-top: 1rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+
+    /* .reservation-form-contents{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    
+    
+} */
+
+    .reservation-form-contents label {
+        grid-column: 1;
+        /* margin-left: 10rem; */
+
+        font-weight: bold;
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .reservation-form-contents input,
+    .reservation-form-contents button {
+        grid-column: 2 / 3;
+        display: block;
+
+        width: 30rem;
+
+        height: 2rem;
+
+
+    }
+
+    #day-options,
+    #options {
+        height: 2rem;
+
+        width: 30rem;
+
+        text-align: center;
+        font-weight: bold;
+        font-size: 0.9rem;
+
+        margin-bottom: 2rem;
+
+    }
+
+
+
+
+    .form-content1 {
+        margin: 2rem;
+        margin-top: 0;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-left: 2.5rem;
+
+    }
+
+    .form-content2 {
+        margin: 2rem;
+        margin-bottom: 0;
+        font-weight: bold;
+        padding-top: 1rem;
+        padding-left: 0.2rem;
+
+        text-align: center;
+    }
+
+    .reserve-button {
+        margin-top: 1rem;
+        /* margin-bottom: 2.5rem; */
+
+        background-color: white;
+        border: 1px solid #778152;
+
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+    #name-error {
+        grid-column: 2;
+        color: rgb(236, 4, 4);
+        padding-bottom: 2rem;
+    }
+
+    #email-error {
+        grid-column: 2;
+        color: rgb(236, 4, 4);
+        padding-bottom: 2rem;
+
+    }
+
+    #phone-error {
+        grid-column: 2;
+        color: rgb(236, 4, 4);
+        padding-bottom: 2rem;
+    }
+
+    .success-message {
+        padding-bottom: 1rem;
+
+        font-size: 1.3rem;
+        padding-left: 3rem;
+        color: rgb(239, 239, 239);
+
+        font-weight: bold;
+    }
+
+    .error-message {
+        padding-bottom: 1rem;
+
+        font-size: 1.3rem;
+        padding-left: 3rem;
+        color: red;
+
+        font-weight: bold;
+    }
+
+    input::placeholder {
+        font-size: 1.1rem;
+        /* Adjust the font size as desired */
+    }
+
+.home-nav-link {
+        font-size: 1.5rem;
+    }
+}

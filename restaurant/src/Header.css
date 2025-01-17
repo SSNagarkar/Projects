@@ -1,0 +1,273 @@
+ @import url('https://fonts.google.com/specimen/Italiana');
+
+
+ @media screen and (max-width: 768px) {
+    .header-themeswitcher{
+        display: none;
+    }
+ }
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    /* display: grid;
+    grid-template-areas: 
+    
+    "header-logo" "header-title" "header-navmenu" ;
+
+    grid-template-columns: auto 1fr auto; */
+
+    background-color: var(--header-bg);
+} 
+
+
+
+.restaurant-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-bg);
+} 
+
+.app.dark{
+    --header-bg: #4b5c09;
+}
+
+.app.dark .header-title{
+    color: white;
+}
+
+
+.header-logo{
+    /* grid-area: header-logo;
+    grid-row: 1; */
+    height: 9rem;
+    width: 8rem;
+}
+
+.header-logo_dark{
+    /* grid-area: header-logo;
+    grid-row: 1; */
+    height: 9rem;
+    width: 8rem;
+}
+
+.header-logo_dark {
+    display: none; 
+  }
+  
+  .app.dark .header-logo {
+    display: none; 
+  }
+  
+  .app.dark .header-logo_dark {
+    display: block; 
+  }
+
+.header-title{
+    /* grid-area: header-title;
+    grid-row: 1;
+    grid-column: 1; */
+    text-align: center;
+    width: 3rem;
+
+    font-size: 4rem;
+    
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color:white;
+}  
+
+.header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .header-themeswitcher{
+    display: none;
+} */
+
+
+
+.header-para{
+    grid-column: 1;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+
+.skiptomain{
+    position: absolute;
+    left: 15rem;
+    height: initial;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+
+    color: white;
+}
+
+.skiptomain:focus {
+    transform: translateY(0%);
+  }
+
+.header-navmenu1{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 44rem){
+
+
+
+    .reserve-nav{
+
+        list-style: none;
+        position: relative;
+        right: 7rem;
+        top:3rem
+    }
+    
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* display: grid;
+        grid-template-areas: 
+        "header-logo" 
+        "header-title" "header-navmenu" 
+    
+        
+         ;
+    
+        grid-template-columns: auto 1fr auto; */
+
+         height: 10rem;
+         background-color: var(--header-bg);
+    
+       
+    } 
+
+    .restaurant-logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    } 
+    
+    
+    
+    .header-logo{
+        /* grid-area: header-logo;
+        grid-row: 1; */
+        height: 9rem;
+        width: 8rem;    
+
+        
+    }
+
+
+
+.header-title{
+
+    text-align: center;
+
+    font-size: 5rem;
+    width: 3rem;
+    margin-top: 0;
+    
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color:white;
+    /* grid-area: header-title;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+
+    font-size: 5rem;
+    
+    font-weight: 100;
+    font-family:  "Italiana", serif;
+
+    margin-left: 2rem;
+   
+    
+    color: white;
+
+    padding-top: 1rem; */
+
+    
+
+    margin-bottom: 0;
+}
+
+.header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-navmenu{
+    display: none;
+}
+
+
+.header-navmenu1{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px;
+   
+
+}
+
+.nav{
+    display: flex; 
+    gap: 20px; 
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 10px 0px ;
+    font-size: 1.5rem; 
+    transition: color 0.3s;
+  }
+
+  .nav a:hover {
+    color: #4b5c09; /* Change link color on hover */
+  }
+
+  .header-navmenu1 span {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header-navmenu1 span :hover {
+    color: #4b5c09; 
+  }
+
+
+.header-para{
+    text-align: center;
+
+    margin-top: 0;
+}
+
+
+}
